@@ -4,6 +4,7 @@ body {
 }
 
 .nav {
+
     background-color: rgb(237, 14, 237);
     display: flex;
     justify-content: flex-end;      
