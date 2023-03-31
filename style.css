@@ -1,17 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body {
     margin: 0;
     padding: 0 auto;
 }
 
 .nav {
-    background-color: rgb(61, 22, 61);
+    background-color: rgb(56, 2, 4);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 5px 10px black;
+
+    
 }
 
 .nav img {
-    float: left;
-    margin-left: 10px;
-    
-
+    display: flex;
+width: 60px;
+flex-direction: row;
 }
+.nav .letras{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
