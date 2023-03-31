@@ -3,16 +3,16 @@
 body {
     margin: 0;
     padding: 0 auto;
+    background-image: url(https://img.freepik.com/fotos-gratis/luxo-abstrato-bege-bege-claro-como-fundo-de-textura-de-algodao-e-seda_1258-101774.jpg?w=2000);
 
 }
 
 .nav {
     background-color: rgb(56, 2, 4);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 1px 5px 10px black;
-
 
 }
 
@@ -31,20 +31,27 @@ body {
 
 .container1 {
     width: auto;
-    height: auto;
-    margin-top: 10%;
+    height: 300px;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-
-}
-
-.cafe img {
-    width: 50%;
-    height: 203px;
-    float: right;
-}
-
-.text h1 {
     display: flex;
-    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(56, 2, 4);
+}
+
+.container2 {
+    width: auto;
+    height: 300px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    background-color: rgb(56, 2, 4);
+    flex-direction: row-reverse;
+
+}
+.text2 {
+    color: aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
 }
