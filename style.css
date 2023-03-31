@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0 auto;
+
 }
 
 .nav {
@@ -10,16 +11,40 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 5px 10px black;
+
+
 }
 
 .nav img {
     display: flex;
-width: 60px;
-flex-direction: row;
+    width: 60px;
+    flex-direction: row;
 }
-.nav .letras{
+
+.nav .letras {
     color: white;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    display: flex;
 }
 
+.container1 {
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.cafe img {
+    width: 50%;
+    height: 203px;
+    float: right;
+}
+
+.text h1 {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+}
